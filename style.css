@@ -1,0 +1,50 @@
+/*banner customization*/
+body {
+    background: #000000;
+}
+.banner {
+    position: relative;
+    height: 500px;
+}
+.banner-video {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    overflow: hidden;
+}
+.banner-video video {
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.banner-text {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: monospace;
+    z-index: 1;
+    color: white;
+}
+.banner-text h1 {
+    font-weight: bold;
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+.banner-text p {
+    font-size: 1.5rem;
+}
+
+/*biography customization*/
+.biography {
+    margin-top: 10px;
+    height: 100px;
+}
+.photoCata {
+    width: 30%;
+    float: left;
+    height: 90px;
+}
+.presentationCata {
+    width: 70%;
+    float: right;
+}
